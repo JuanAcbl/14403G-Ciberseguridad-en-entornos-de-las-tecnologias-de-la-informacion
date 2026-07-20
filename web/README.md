@@ -60,4 +60,4 @@ cd web
 node build-data.js
 ```
 
-Las preguntas de la autoevaluación se editan a mano en `data/quiz.js`.
+Las preguntas de la autoevaluación se editan a mano en `data/quiz.js`
