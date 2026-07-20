@@ -8,18 +8,18 @@ Este curso está enfocado en dotar de los conocimientos y habilidades necesarias
 
 En este repositorio encontrarás material de estudio, ejercicios prácticos, configuraciones de laboratorio, scripts y los proyectos desarrollados a lo largo del curso. Todo el contenido está organizado para servir como bitácora y guía de referencia en el ámbito de la seguridad informática.
 
-## 📚 Estructura de Módulos del Curso
+## 📚 Contenido del Curso
 
-El repositorio refleja las áreas de conocimiento del curso, típicamente estructuradas en los siguientes módulos:
+En este repositorio encontrarás una serie de archivos Markdown (`.md`) que recogen mis apuntes, fragmentos de código y notas de estudio, abarcando las principales áreas del curso:
 
-- **📁 Incidentes de Ciberseguridad:** Monitorización, detección, y respuesta ante incidentes y amenazas.
-- **📁 Bastionado de Redes y Sistemas:** Fortificación de infraestructuras, sistemas operativos y servicios de red.
-- **📁 Hacking Ético:** Auditoría de sistemas, test de penetración, análisis de vulnerabilidades y explotación.
-- **📁 Puesta en Producción Segura:** Securización del ciclo de desarrollo de software (DevSecOps) y despliegue seguro.
-- **📁 Análisis Forense Informático:** Adquisición de evidencias, cadena de custodia y análisis post-incidente.
-- **📁 Normativa y Ciberseguridad:** Legislación aplicable (RGPD, ENS), estándares (ISO 27001) y cumplimiento normativo.
+* **Incidentes de Ciberseguridad:** Notas sobre monitorización, detección y respuesta ante amenazas.
+* **Bastionado de Redes y Sistemas:** Apuntes de fortificación de infraestructuras y servicios.
+* **Hacking Ético:** Guías y comandos para auditoría de sistemas y análisis de vulnerabilidades.
+* **Puesta en Producción Segura:** Documentación sobre la securización del ciclo de desarrollo de software.
+* **Análisis Forense Informático:** Procedimientos para la adquisición de evidencias y análisis post-incidente.
+* **Normativa y Ciberseguridad:** Resúmenes de legislación aplicable (RGPD, ENS) y estándares.
 
-*(La estructura exacta de carpetas puede variar a medida que se sube el contenido del curso).*
+*(Los archivos se irán actualizando y ampliando a medida que avance el estudio de cada módulo).*
 
 ## 🎯 Competencias Desarrolladas
 
@@ -33,16 +33,6 @@ El contenido de este curso asume conocimientos previos y está dirigido a person
 - Técnico Superior en Administración de Sistemas Informáticos en Red (ASIR).
 - Técnico Superior en Desarrollo de Aplicaciones Multiplataforma / Web (DAM / DAW).
 - Técnico en Instalaciones de Telecomunicaciones o Sistemas Microinformáticos y Redes.
-
-## 🚀 Cómo usar este repositorio
-
-Puedes clonar el repositorio para tener acceso local a todos los scripts, guías y configuraciones:
-
-```bash
-git clone https://github.com/JuanAcbl/14403G-Ciberseguridad-en-entornos-de-las-tecnologias-de-la-informacion.git
-```
-
-Si buscas información sobre un módulo en particular, navega hasta su respectiva carpeta, donde cada una incluye su propio conjunto de instrucciones.
 
 ## 🛠️ Herramientas y Tecnologías Comunes
 
