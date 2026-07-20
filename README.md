@@ -1,54 +1,34 @@
 # 🛡️ 14403G - Ciberseguridad en Entornos de las Tecnologías de la Información
 
-Bienvenido al repositorio de apuntes, prácticas y proyectos correspondientes al **Curso de Especialización en Ciberseguridad en Entornos de las Tecnologías de la Información (14403G)**.
+Bienvenido a mi repositorio personal de apuntes y código para el **Curso de Especialización en Ciberseguridad en Entornos de las Tecnologías de la Información (14403G)**.
 
-Este curso está enfocado en dotar de los conocimientos y habilidades necesarias para definir, implementar y mantener estrategias de seguridad en los sistemas de información, realizando diagnósticos de ciberseguridad, identificando vulnerabilidades e implementando las medidas necesarias para mitigarlas aplicando la normativa vigente.
+Este espacio funciona como mi bitácora y base de conocimiento durante el estudio del curso.
 
-## 📋 Descripción del Repositorio
+## 📋 Sobre el Repositorio
 
-En este repositorio encontrarás material de estudio, ejercicios prácticos, configuraciones de laboratorio, scripts y los proyectos desarrollados a lo largo del curso. Todo el contenido está organizado para servir como bitácora y guía de referencia en el ámbito de la seguridad informática.
+Este repositorio está compuesto **únicamente por archivos Markdown (`.md`)** ubicados en el directorio principal. Su objetivo es ir al grano, sin estructuras complejas de carpetas.
 
-## 📚 Contenido del Curso
+Dentro de estos archivos `.md` encontrarás:
+- 📝 Mis apuntes teóricos de las asignaturas.
+- 💻 Fragmentos de código, comandos de terminal y scripts utilizados en las prácticas.
+- 🛠️ Resoluciones de ejercicios y laboratorios de estudio.
 
-En este repositorio encontrarás una serie de archivos Markdown (`.md`) que recogen mis apuntes, fragmentos de código y notas de estudio, abarcando las principales áreas del curso:
+## 📚 Temáticas Tratadas
 
-* **Incidentes de Ciberseguridad:** Notas sobre monitorización, detección y respuesta ante amenazas.
-* **Bastionado de Redes y Sistemas:** Apuntes de fortificación de infraestructuras y servicios.
-* **Hacking Ético:** Guías y comandos para auditoría de sistemas y análisis de vulnerabilidades.
-* **Puesta en Producción Segura:** Documentación sobre la securización del ciclo de desarrollo de software.
-* **Análisis Forense Informático:** Procedimientos para la adquisición de evidencias y análisis post-incidente.
-* **Normativa y Ciberseguridad:** Resúmenes de legislación aplicable (RGPD, ENS) y estándares.
+Los archivos `.md` que iré subiendo abarcan los distintos módulos del curso de especialización:
 
-*(Los archivos se irán actualizando y ampliando a medida que avance el estudio de cada módulo).*
+- **Incidentes de Ciberseguridad**
+- **Bastionado de Redes y Sistemas**
+- **Hacking Ético**
+- **Puesta en Producción Segura**
+- **Análisis Forense Informático**
+- **Normativa y Ciberseguridad**
 
-## 🎯 Competencias Desarrolladas
+## 🚀 Cómo usar este repositorio
 
-- Aseguramiento de infraestructuras de red y de centros de datos.
-- Despliegue de políticas de seguridad digital, privacidad y cumplimiento legal.
-- Implementación de protocolos de calidad en auditorías técnicas.
-- Manejo avanzado de herramientas de auditoría, monitorización (SIEM) y análisis de malware.
+La mejor forma de utilizar este repositorio es explorar y leer directamente los archivos `.md` desde la propia interfaz de GitHub, ya que renderiza perfectamente el texto y el resaltado de sintaxis de los bloques de código.
 
-## 🎓 Perfil de Acceso
-El contenido de este curso asume conocimientos previos y está dirigido a personas que cuenten con una base técnica, como titulados en:
-- Técnico Superior en Administración de Sistemas Informáticos en Red (ASIR).
-- Técnico Superior en Desarrollo de Aplicaciones Multiplataforma / Web (DAM / DAW).
-- Técnico en Instalaciones de Telecomunicaciones o Sistemas Microinformáticos y Redes.
+Si prefieres clonar los archivos para consultarlos en tu editor de código local (como VS Code o Obsidian):
 
-## 🛠️ Herramientas y Tecnologías Comunes
-
-- **Sistemas:** Kali Linux, Parrot Security OS, Windows Server, Ubuntu Server.
-- **Redes:** Wireshark, Nmap, Cisco Packet Tracer, Pfsense.
-- **Explotación y Auditoría:** Metasploit Framework, Burp Suite, OWASP ZAP.
-- **Virtualización:** VirtualBox, VMware, Docker.
-
-## 👤 Autor
-
-**JuanAcbl**
-Apasionado por la ciberseguridad y la administración de sistemas. 
-
-*Enlace al perfil de GitHub: [@JuanAcbl](https://github.com/JuanAcbl)*
-
----
-
-⚠️ **Aviso de Responsabilidad (Disclaimer):**
-*Todo el material, código y las pruebas de concepto (PoC) incluidos en este repositorio tienen un propósito exclusivamente educativo y académico. Las técnicas documentadas deben utilizarse únicamente en entornos controlados, de laboratorio, o sobre sistemas en los que se tenga autorización explícita para realizar auditorías. El autor no se hace responsable de un uso indebido de la información aquí proporcionada.*
+```bash
+git clone [https://github.com/JuanAcbl/14403G-Ciberseguridad-en-entornos-de-las-tecnologias-de-la-informacion.git](https://github.com/JuanAcbl/14403G-Ciberseguridad-en-entornos-de-las-tecnologias-de-la-informacion.git)
