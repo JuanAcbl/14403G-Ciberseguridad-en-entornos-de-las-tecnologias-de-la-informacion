@@ -12,9 +12,12 @@ abre directamente el `index.html`.
   módulo — se guarda en el navegador (`localStorage`).
 - 📝 **Notas personales** por sección, con guardado automático.
 - 🔖 **Marcadores** y **tema claro/oscuro**.
-- 🎮 **Autoevaluación estilo Kahoot**: 12 preguntas tipo test por módulo,
-  contrarreloj y con puntuación; ordenado o aleatorio.
-- 🃏 **Flashcards** de repaso (8 por módulo), ordenadas o aleatorias.
+- 🎮 **Autoevaluación estilo Kahoot**: bancos amplios de preguntas tipo test
+  (unas 35 por tema), contrarreloj y con puntuación; ordenado o aleatorio.
+- 🎯 **Examen por temas**: cada módulo se divide en temas (sus unidades) y
+  puedes elegir **uno, varios o todos** (p. ej. tema 1 + tema 8) y cuántas
+  preguntas quieres, tanto para el quiz como para las flashcards.
+- 🃏 **Flashcards** de repaso (unas 20 por tema), ordenadas o aleatorias.
 - 🖥️ **Modo presentación (slides)** de cada módulo.
 - 🔍 **Buscador** global en todo el temario.
 - 💾 **Exportar / importar** tu progreso como archivo JSON (útil para pasar tus
@@ -44,7 +47,7 @@ web/
 │   └── quiz.js     autoevaluación (Kahoot) y flashcards
 ├── data/
 │   ├── modulos.js  los 6 .md empaquetados (autogenerado)
-│   └── quiz.js     banco de preguntas y flashcards por módulo
+│   └── quiz.js     banco de preguntas y flashcards por módulo y tema
 └── build-data.js   regenera data/modulos.js desde los .md
 ```
 
