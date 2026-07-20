@@ -1,34 +1,50 @@
-# 🛡️ 14403G - Ciberseguridad en Entornos de las Tecnologías de la Información
+# 🛡️ 14403G - Curso de Especialización en Ciberseguridad (Edición Comunidad / Autodidacta)
 
-Bienvenido a mi repositorio personal de apuntes y código para el **Curso de Especialización en Ciberseguridad en Entornos de las Tecnologías de la Información (14403G)**.
+Bienvenido a este repositorio abierto, diseñado especialmente para la **comunidad**. Este proyecto contiene un temario estructurado basado en el **Curso de Especialización en Ciberseguridad en Entornos de las Tecnologías de la Información (14403G)**.
 
-Este espacio funciona como mi bitácora y base de conocimiento durante el estudio del curso.
+Este repositorio ha sido creado para todas aquellas personas que quieren aprender ciberseguridad, buscan formarse de manera autodidacta, o no han podido acceder al curso oficial y necesitan una guía de estudio accesible y gratuita.
 
-## 📋 Sobre el Repositorio
+## 🎯 Objetivo del Proyecto
 
-Este repositorio está compuesto **únicamente por archivos Markdown (`.md`)** ubicados en el directorio principal. Su objetivo es ir al grano, sin estructuras complejas de carpetas.
+El objetivo es democratizar el conocimiento técnico en ciberseguridad. Aquí encontrarás un material de estudio generado y organizado específicamente para facilitar tu aprendizaje desde cero, yendo directo a lo importante.
 
-Dentro de estos archivos `.md` encontrarás:
-- 📝 Mis apuntes teóricos de las asignaturas.
-- 💻 Fragmentos de código, comandos de terminal y scripts utilizados en las prácticas.
-- 🛠️ Resoluciones de ejercicios y laboratorios de estudio.
+## 📋 Estructura del Material
 
-## 📚 Temáticas Tratadas
+Para que la navegación sea rápida y sencilla, todo el contenido está organizado en **archivos Markdown (`.md`)** en este directorio principal. No hay estructuras complejas de carpetas; solo abre el archivo del tema que quieras estudiar y empieza a leer.
 
-Los archivos `.md` que iré subiendo abarcan los distintos módulos del curso de especialización:
+Dentro de los archivos encontrarás:
+*   **Teoría estructurada:** Explicaciones directas sobre conceptos de seguridad.
+*   **Código y Comandos:** Snippets, scripts y comandos de terminal listos para estudiar o replicar en tus laboratorios.
+*   **Guías paso a paso:** Metodologías de ataque, defensa y auditoría.
 
-- **Incidentes de Ciberseguridad**
-- **Bastionado de Redes y Sistemas**
-- **Hacking Ético**
-- **Puesta en Producción Segura**
-- **Análisis Forense Informático**
-- **Normativa y Ciberseguridad**
+## 📚 Temario / Módulos Disponibles
 
-## 🚀 Cómo usar este repositorio
+Los archivos `.md` cubren las áreas de conocimiento fundamentales de este ciclo formativo:
 
-La mejor forma de utilizar este repositorio es explorar y leer directamente los archivos `.md` desde la propia interfaz de GitHub, ya que renderiza perfectamente el texto y el resaltado de sintaxis de los bloques de código.
+*   **Incidentes de Ciberseguridad:** Monitorización, detección de amenazas y respuesta.
+*   **Bastionado de Redes y Sistemas:** Fortificación de servidores, sistemas operativos y servicios.
+*   **Hacking Ético:** Reconocimiento, explotación, test de penetración y auditorías.
+*   **Puesta en Producción Segura:** Integración de la seguridad en el desarrollo de software (DevSecOps).
+*   **Análisis Forense Informático:** Adquisición de evidencias, cadena de custodia y análisis post-incidente.
+*   **Normativa y Ciberseguridad:** Cumplimiento normativo, RGPD y Esquema Nacional de Seguridad (ENS).
 
-Si prefieres clonar los archivos para consultarlos en tu editor de código local (como VS Code o Obsidian):
+## 🚀 Cómo utilizar este repositorio
+
+La forma más cómoda de seguir este curso es abrir y leer los archivos `.md` directamente desde la interfaz de GitHub, ya que renderiza el formato y resalta la sintaxis del código a la perfección.
+
+Si prefieres tener el temario en tu equipo para leerlo sin conexión o usar herramientas de toma de notas (como Obsidian o VS Code), puedes clonarlo:
 
 ```bash
 git clone [https://github.com/JuanAcbl/14403G-Ciberseguridad-en-entornos-de-las-tecnologias-de-la-informacion.git](https://github.com/JuanAcbl/14403G-Ciberseguridad-en-entornos-de-las-tecnologias-de-la-informacion.git)
+```
+## 🤝 Para la Comunidad
+Este repositorio está hecho por y para la comunidad. Si estás estudiando con este material y quieres aportar mejoras, corregir algún detalle, o añadir nuevos ejemplos de código, ¡siéntete libre de abrir un *Issue* o hacer un *Pull Request*! Toda ayuda para hacer este temario más completo es bienvenida.
+
+## 👤 Creador
+**JuanAcbl**  
+Puedes encontrarme en GitHub: [@JuanAcbl](https://github.com/JuanAcbl)
+
+---
+
+⚠️ **Aviso de Responsabilidad (Disclaimer):**
+*Todo el material, scripts y técnicas descritas en este repositorio tienen un propósito estrictamente educativo. Las pruebas deben realizarse siempre en entornos de laboratorio propios y controlados (máquinas virtuales, plataformas de entrenamiento, etc.). El autor no se hace responsable del uso indebido, ilegal o malintencionado de la información aquí compartida.*
