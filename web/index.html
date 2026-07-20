@@ -1,0 +1,101 @@
+<!doctype html>
+<html lang="es" data-bs-theme="dark">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Temario Ciberseguridad · Curso de Especialización</title>
+  <meta name="description" content="Apuntes del Curso de Especialización en Ciberseguridad (RD 479/2020) con progreso, notas y autoevaluación.">
+
+  <!-- Estilos locales (sin CDN) -->
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/bootstrap-icons.min.css">
+  <link rel="stylesheet" href="css/hljs-github-dark.min.css">
+  <link rel="stylesheet" href="css/app.css">
+</head>
+<body>
+
+  <!-- ===== Barra superior ===== -->
+  <nav class="navbar navbar-expand-lg sticky-top app-navbar border-bottom">
+    <div class="container-fluid px-3">
+      <button class="btn btn-outline-secondary d-lg-none me-2" id="btnToggleSidebar" title="Menú">
+        <i class="bi bi-list"></i>
+      </button>
+
+      <a class="navbar-brand d-flex align-items-center gap-2 mb-0" href="#/">
+        <i class="bi bi-shield-lock-fill text-primary fs-4"></i>
+        <span class="fw-semibold">Ciberseguridad</span>
+        <span class="text-secondary d-none d-md-inline small">· RD 479/2020</span>
+      </a>
+
+      <div class="ms-auto d-flex align-items-center gap-2">
+        <!-- Buscador (Fase 5, ya maquetado) -->
+        <div class="position-relative d-none d-sm-block" id="searchWrap">
+          <input type="search" id="searchInput" class="form-control form-control-sm search-input"
+                 placeholder="Buscar en el temario…" autocomplete="off">
+          <div id="searchResults" class="search-results shadow d-none"></div>
+        </div>
+
+        <button class="btn btn-sm btn-outline-secondary" id="btnTheme" title="Cambiar tema (claro/oscuro)">
+          <i class="bi bi-moon-stars"></i>
+        </button>
+
+        <div class="dropdown">
+          <button class="btn btn-sm btn-outline-secondary" data-bs-toggle="dropdown" title="Mi progreso">
+            <i class="bi bi-gear"></i>
+          </button>
+          <ul class="dropdown-menu dropdown-menu-end">
+            <li><h6 class="dropdown-header">Mis datos (este navegador)</h6></li>
+            <li><a class="dropdown-item" href="#" id="btnExport"><i class="bi bi-download me-2"></i>Exportar progreso (JSON)</a></li>
+            <li><a class="dropdown-item" href="#" id="btnImport"><i class="bi bi-upload me-2"></i>Importar progreso</a></li>
+            <li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-item text-danger" href="#" id="btnReset"><i class="bi bi-trash me-2"></i>Borrar todo mi progreso</a></li>
+          </ul>
+        </div>
+        <input type="file" id="importFile" accept="application/json" class="d-none">
+      </div>
+    </div>
+  </nav>
+
+  <div class="app-shell">
+    <!-- ===== Sidebar: lista de módulos + TOC del módulo activo ===== -->
+    <aside class="app-sidebar border-end" id="sidebar">
+      <div class="p-3">
+        <div class="text-uppercase text-secondary small fw-semibold mb-2 px-1">Módulos</div>
+        <nav id="moduleList" class="nav flex-column gap-1"></nav>
+      </div>
+
+      <hr class="my-1 mx-3">
+
+      <div class="p-3" id="tocWrap">
+        <div class="d-flex justify-content-between align-items-center mb-2 px-1">
+          <span class="text-uppercase text-secondary small fw-semibold">En esta página</span>
+        </div>
+        <nav id="toc" class="toc small"></nav>
+      </div>
+    </aside>
+    <div class="sidebar-backdrop d-lg-none" id="sidebarBackdrop"></div>
+
+    <!-- ===== Contenido (la portada la genera app.js) ===== -->
+    <main class="app-content" id="content"></main>
+  </div>
+
+  <!-- Datos (temario empaquetado) -->
+  <script src="data/modulos.js"></script>
+  <script src="data/quiz.js"></script>
+  <!-- Librerías locales -->
+  <script src="js/lib/bootstrap.bundle.min.js"></script>
+  <script src="js/lib/marked.min.js"></script>
+  <script src="js/lib/highlight.min.js"></script>
+  <!-- Lenguajes extra que la build 'common' no incluye (labs en PowerShell, etc.) -->
+  <script src="js/lib/lang-powershell.js"></script>
+  <script src="js/lib/lang-nginx.js"></script>
+  <script src="js/lib/lang-apache.js"></script>
+  <script src="js/lib/lang-dns.js"></script>
+  <script src="js/lib/lang-ini.js"></script>
+  <!-- App -->
+  <script src="js/store.js"></script>
+  <script src="js/slides.js"></script>
+  <script src="js/quiz.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>
