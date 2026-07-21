@@ -60,4 +60,19 @@ cd web
 node build-data.js
 ```
 
-Las preguntas de la autoevaluación se editan a mano en `data/quiz.js`.
+Las preguntas y flashcards de la autoevaluación se editan a mano en
+`data/quiz.js`, organizadas **por módulo y por tema**:
+
+```js
+window.QUIZ = {
+  "5021": { temas: [
+    { id: "t1", titulo: "U1. …", test: [ /* {q,opciones:[4],correcta,explicacion} */ ], flashcards: [ /* {front,back} */ ] },
+    …
+  ]},
+  …
+};
+```
+
+En la web, cada tema es una casilla en el menú de autoevaluación: puedes elegir
+uno, varios (p. ej. tema 1 + tema 8) o todos, y cuántas preguntas/tarjetas
+entran en la sesión. Vale igual para el Quiz y para las Flashcards.
